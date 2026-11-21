@@ -10,7 +10,10 @@ import os
 import sys
 
 CANDIDATES = [
-    # final pick: escalation ends on the judge reading my prompt, not my code
+    # final pick: the inversion - while I judge its code, it is judging me
+    "I spent lunch reviewing the agent's PR. It reviewed my review and left two "
+    "nits on my approval.",
+    # earlier pick: escalation ends on the judge reading my prompt, not my code
     "The agent wrote the code, wrote the tests, approved the PR, merged, and left "
     "a one-star review of my prompt.",
     # earlier pick: setup is mundane, punchline is the PR title nobody asked for
