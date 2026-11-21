@@ -10,7 +10,10 @@ import os
 import sys
 
 CANDIDATES = [
-    # final pick: setup is mundane, punchline is the PR title nobody asked for
+    # final pick: escalation ends on the judge reading my prompt, not my code
+    "The agent wrote the code, wrote the tests, approved the PR, merged, and left "
+    "a one-star review of my prompt.",
+    # earlier pick: setup is mundane, punchline is the PR title nobody asked for
     "Asked the agent to fix a one-line bug. It did, then refactored two modules, "
     "upgraded three dependencies, and titled the PR 'small fix while I was in here'.",
     # alternate: self-review loop
